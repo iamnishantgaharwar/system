@@ -1,9 +1,10 @@
+import LoginPage from "./pages/Auth/LoginPage"
 
 function App() {
   return (
-    <>
-      <h1>Hello world</h1>
-    </>
+    <div className="m-10">
+      <LoginPage />
+    </div>
   )
 }
 
