@@ -17,7 +17,7 @@ export const generateAccessToken = ({userId, fullname, email, role}: IJwtSign) =
     email,  
     role,
     fullname              
-  }, JWT_SECRET, {expiresIn: '10m'} )
+  }, JWT_SECRET, {expiresIn: '10s'} )
 }
 
 export const generateRefreshToken = () => {
